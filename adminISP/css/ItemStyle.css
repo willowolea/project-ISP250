@@ -1,0 +1,173 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #D4ED87;
+    color: black;
+    font-size: 30;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #9cb359;
+}
+
+.message {
+    display: block;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    font-size: 30px;
+    color: #1c1c1e;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.product-form-container form { 
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: #978DAF;
+}
+
+.product-form-container form h3{ 
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.product-form-container form .box {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30;
+    margin: 10px;
+    background-color: white;
+    text-transform: none;
+}
+
+.product-form-container a{
+    text-decoration: none;
+    color: #1c1c1e;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.product-form-container a:hover{
+    color: #4B50D0;
+    cursor: pointer;
+}
+
+.item-display {
+    margin: 2rem 0;
+    overflow-y: scroll;
+}
+
+.item-display .item-display-table {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.item-display .item-display-table thead {
+    background-color: #978DAF;
+    border: 2px solid black;
+}
+
+.item-display .item-display-table th {
+    padding: 0.8rem;
+    font-size: 16px;
+    border-bottom: black;
+    border: 2px solid black;
+}
+
+.item-display .item-display-table td {
+    padding: 0.8rem;
+    font-size: 16;
+    border-bottom: black;
+    border: 2px solid black;
+}
+
+td a {
+    text-decoration: none;
+    color: #1c1c1e;
+    margin-left: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+td a:hover {
+    color: #4B50D0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    .item-display .item-display-table {
+        width: 80rem;
+    }
+}
+
+@media (max-width:768) {
+
+    .item-display {
+        overflow-y: scroll;
+    }
+
+    .item-display .item-display-table {
+        width: 80rem;
+    }
+}
+
+@media (max-width:450px) {
+
+    html {
+        font-size: 55%;
+    }
+}
