@@ -1,5 +1,5 @@
 # project-ISP250
-My UiTM Administration Website
+ISP250 Administration Website
 
 1. Install Xampp from [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
 2. Run Xampp-control
