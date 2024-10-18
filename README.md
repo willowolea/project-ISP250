@@ -1,5 +1,5 @@
 # project-ISP250
-ISP250 Administration Website
+ISP250 Administration Website (Group Project)
 
 1. Install Xampp from [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
 2. Run Xampp-control
